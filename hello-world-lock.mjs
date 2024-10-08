@@ -42,6 +42,7 @@ const datum = {
   },
 };
  
+
 const unsignedTx = await new Transaction({ initiator: wallet }).sendLovelace(
   {
     address: resolvePlutusScriptAddress(script, 0),
